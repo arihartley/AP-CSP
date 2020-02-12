@@ -29,9 +29,10 @@
 // console.log("Your Total Score is: " + totalScore);
 
 //DICE ROLLING
-let dSix = mathFloor(math.random() * 6);
-let dSixTwo = mathFloor(math.random() * 6);
+let d6 = Math.floor(Math.random()*6);
+let d6Two = Math.floor(Math.random()*6);
 console.log ('Rolling the dice!');
-console.log ('You rolled a ' + dSix);
-console.log ('and a ' + dSixTwo);
-console.log ('for a total of = ' + dSix + dSixTwo);
+console.log ('You rolled a ' + d6);
+numTotal = d6 + d6Two ;
+console.log ('and a ' + d6Two);
+console.log ('for a total of = ' + numTotal);
