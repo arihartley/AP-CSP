@@ -29,7 +29,7 @@
 // console.log("Your Total Score is: " + totalScore);
 
 //DICE ROLLING
-let dSix = mathFloor(mat.hrandom() * 6);
+let dSix = mathFloor(math.random() * 6);
 let dSixTwo = mathFloor(math.random() * 6);
 console.log ('Rolling the dice!');
 console.log ('You rolled a ' + dSix);
